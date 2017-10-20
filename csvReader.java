@@ -22,15 +22,21 @@ public class csvReader {
 	    while ((line = bfr.readLine()) != null) {
 
 	    	
-            // use comma as separator
+            // use \t as separator
             String[] column = line.split(cvsSplitBy);
             
+            System.out.println(  column[0] + "\t" + column[1] );
+            System.out.println(  column[2] + "\t" + column[3] );
             System.out.println(  column[4] + "\t" + column[5] );
-
+            System.out.println(  column[6] + "\t" + column[7] );
+            System.out.println(  column[8] + "\t" + column[9] );
         }
 
 	  
 	    }
 	  }
+
+
+
 
 
